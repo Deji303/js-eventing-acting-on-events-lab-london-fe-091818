@@ -1,3 +1,8 @@
+
+var dodger = document.getElementById('dodger')
+
+
+
 function moveDodgerRight() {
   var rightNumbers = dodger.style.right.replace('px', '')
   var right = parseInt(rightNumbers, 10)
@@ -12,3 +17,4 @@ document.addEventListener('keydown', function(e) {
     moveDodgerRight()
   }
 })
+
